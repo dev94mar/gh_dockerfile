@@ -1,0 +1,14 @@
+name: My Docker Action
+description: A simple GitHub Action using Docker
+author: Marino
+inputs:
+  name:
+    description: Your name
+    required: false
+    default: World
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: box
+  color: blue
